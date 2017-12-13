@@ -12,18 +12,50 @@
   <body>
 
 
-    <h1>Crystal Collector Game</h1>
+    <div id="rap" class="container-fluid float-left">
+      <div class="row">
+        <div class="col">
+          <center>
+            <h1>Crystal Collector Game</h1>
+          </center>
 
-    <div>
-      <h5>Number to guess:<span id="numberToGuess"></span></h5>
-    </div
+          <div id="instructions" class="container">
+            <p>Select crystals and use their different individual values to achieve the target score.</p>
+          </div>
 
-    <div="crystals">
-      <img id="c1" src="assets/images/c6.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666">
-      <img id="c2" src="assets/images/c2.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666">
-      <img id="c3" src="assets/images/c3.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666">
-      <img id="c4" src="assets/images/c4.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666">
+          <div class="container">
+            <h5>Target Score:<span id="numberToGuess"></span></h5>
+            <h3>Wins:<span id="wins"></span></h3>
+            <h3>Losses:<span id="losses"></span></h3>
+          </div>
+
+          <div class="container dialog" title="Basic dialog">
+            <p>Lesson:</p>
+            <img id="lesson" src="assets/images/tesla_crystal.jpg" height=400 width=400 alt="Placeholder Image" />
+            <br><br><br>
+
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="crystals" class="container float-right">
+            <img id="c1" src="assets/images/c6.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666" width="222" height="222">
+            <img id="c2" src="assets/images/c2.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666" width="222" height="222">
+            <img id="c3" src="assets/images/c3.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666" width="222" height="222">
+            <img id="c4" src="assets/images/c4.jpg" class="crystal-image rounded-circle mx-auto d-block img-thumbnail" alt="666" width="222" height="222">
+            <br><br><br><br><br><br>
+
+          </div>
+
+
+        </div>
+      </div>
     </div>
+
+
+
+
+
     <br><br><br><br><br><br>
 
 

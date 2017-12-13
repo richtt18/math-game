@@ -1,4 +1,5 @@
 body {
+  margin:50px;
   background-color: tan;
   font-family: 'Vollkorn SC', serif;
 }
@@ -15,4 +16,23 @@ body {
     }
 h6 {
   font-family: 'Vollkorn SC', serif;
+}
+
+.crystals {
+  height: 400px;
+  width: 400px;
+  float: right;
+  position: relative;
+
+}
+
+.dialog {
+  background-color: pink;
+  border:33px;
+  border-color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
 }
